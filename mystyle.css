@@ -9,3 +9,20 @@ body {
   a {
     color: darkblue
   }
+  p:hover{
+    background-color: yellow;
+  }
+@media only screen and (max-width: 600px) {
+  body{
+    background-color: beige;
+  }
+}
+.important{
+  background-color: lightcoral;
+}
+.headers{
+  background-color: aqua;
+}
+#tim{
+  background-color: darkslateblue;
+}
