@@ -5,24 +5,26 @@
     <meta name="movies" content="This is a few of my favorite movies.">
 </head>  
 <style>
-    div{
-        display: block
-    }
-    div{
-        color: lightblue
-    }
-    div{
-        background-color: antiquewhite;
-    }
     table, th, td {
   border: 1px solid black;
+}
+.header {
+    background-color: lightgray;
+}
+.picture {
+background-color: aliceblue;
+}
+.links{
+    text-align: center;
 }
 </style> 
 <body>
     <title>Tim's Favorite Movies</title>
         <div id="fb-root"></div>
 <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v14.0" nonce="f0QwbIR4"></script>
-        <h1>These are some of my favorite movies</h1>
+<div class="header">       
+<h1>These are some of my favorite movies</h1>
+</div> 
         <table>
             <tr>
               <th>Movie</th>
@@ -45,9 +47,13 @@
                 <td>USA</td>
               </tr>
           </table>
+          <div class="picture">  
           <img src="https://upload.wikimedia.org/wikipedia/en/7/7f/Academy_Award_trophy.png" alt="Picture of an Oscar Trophy" width="300">
-      <p><a href="https://xutimon.github.io/">Check out my project00.</a></p>
+          </div>
+          <div class="links">  
+          <p><a href="https://xutimon.github.io/">Check out my project00.</a></p>
       <p><a href="https://xutimon.github.io/">A little about me.</a></p>
+      </div>
  <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-XZ6WK24FL0"></script>
 <script>
